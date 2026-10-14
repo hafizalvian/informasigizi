@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Informasi gizi harian">
+
+    <title>Informasi Gizi Harian - SPPG</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+        href="css/style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="bg-decoration bg-decoration-1"></div>
+    <div class="bg-decoration bg-decoration-2"></div>
+
+
+    <main class="app">
+
+        <!-- =========================
+             HEADER
+        ========================== -->
+        <header class="header">
+
+            <div class="brand">
+
+                <div class="brand-logo">
+                    <img
+                        src="assets/icons/logobgn.png"
+                        alt="Logo BGN">
+                </div>
+
+                <div class="brand-text">
+                    <h1>
+                        SPPG 
+                        <br>
+                        KALIAN
+                    </h1>
+
+                    <p>
+                        Informasi Gizi Harian
+                    </p>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+             GREETING
+        ========================== -->
+        <section class="greeting">
+
+            <p class="greeting-small">
+                Halo Penerima Manfaat 👋
+            </p>
+
+            <h2>
+                Yuk, kenali gizi
+                <br>
+                makanan hari ini.
+            </h2>
+
+        </section>
+
+
+        <!-- =========================
+             MENU HARI INI
+        ========================== -->
+        <section class="menu-card">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">
+                        MENU HARI INI
+                    </span>
+
+                    <p id="menuDate">
+                        09 September 2026
+                    </p>
+                </div>
+
+                <div class="date-icon">
+                    📅
+                </div>
+
+            </div>
+
+
+            <!-- FOTO MENU -->
+            <div class="menu-images">
+
+                <!-- PORSI KECIL -->
+                <div class="menu-image-card">
+
+                    <div class="image-label small-label">
+                        Porsi Kecil
+                    </div>
+
+                    <div class="food-image-wrapper">
+
+                        <img
+                            id="smallMenuImage"
+                            src="assets/images/menu/09092026.png"
+                            alt="Menu porsi kecil"
+                            onerror="this.src='https://placehold.co/800x500/eaf6fa/08254d?text=Foto+Porsi+Kecil'">
+
+                    </div>
+
+                    <div class="menu-name-box">
+
+                        <span>
+                            Porsi Kecil
+                        </span>
+
+                        <h3 id="smallMenuName">
+                            Nasi, Sate Ayam, Lalapan Timun, Tahu Goreng, Jeruk
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PORSI BESAR -->
+                <div class="menu-image-card">
+
+                    <div class="image-label large-label">
+                        Porsi Besar
+                    </div>
+
+                    <div class="food-image-wrapper">
+
+                        <img
+                            id="largeMenuImage"
+                            src="assets/images/menu/09092026.png"
+                            alt="Menu porsi besar"
+                            onerror="this.src='https://placehold.co/800x500/eaf6fa/08254d?text=Foto+Porsi+Besar'">
+
+                    </div>
+
+                    <div class="menu-name-box">
+
+                        <span>
+                            Porsi Besar
+                        </span>
+
+                        <h3 id="largeMenuName">
+                            Nasi, Sate Ayam, Lalapan Timun, Tahu Goreng, Jeruk
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DESKRIPSI -->
+            <p
+                class="menu-description"
+                id="menuDescription">
+
+                Menu bergizi yang disiapkan
+                untuk memenuhi kebutuhan
+                energi dan zat gizi harian.
+
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             KANDUNGAN GIZI
+        ========================== -->
+        <section
+            class="nutrition-section"
+            id="nutrition">
+
+            <div class="section-title">
+
+                <div>
+
+                    <span class="eyebrow">
+                        INFORMASI GIZI
+                    </span>
+
+                    <h2>
+                        Kandungan Gizi
+                    </h2>
+
+                    <p>
+                        Nilai gizi berdasarkan ukuran porsi.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================
+                 PERBANDINGAN GIZI
+            ====================== -->
+            <div class="nutrition-comparison">
+
+
+                <!-- HEADER -->
+                <div class="nutrition-header">
+
+                    <div class="nutrition-title">
+                        Kandungan
+                    </div>
+
+                    <div class="nutrition-portion-header small">
+                        <span>🍽️</span>
+                        <span>Porsi Kecil</span>
+                    </div>
+
+                    <div class="nutrition-portion-header large">
+                        <span>🍽️</span>
+                        <span>Porsi Besar</span>
+                    </div>
+
+                </div>
+
+
+                <!-- =================
+                     ENERGI
+                ================== -->
+                <div class="nutrition-row energy-row">
+
+                    <div class="nutrition-label">
+
+                        <span class="nutrition-icon">
+                            ⚡
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Energi
+                            </strong>
+
+                            <small>
+                                Kebutuhan energi
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value small">
+
+                        <strong>
+                            <span id="smallEnergy">
+                                526
+                            </span>
+                            <small>kkal</small>
+                        </strong>
+
+                    </div>
+
+
+                    <div class="nutrition-value large">
+
+                        <strong>
+                            <span id="largeEnergy">
+                                644
+                            </span>
+                            <small>kkal</small>
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================
+                     PROTEIN
+                ================== -->
+                <div class="nutrition-row">
+
+                    <div class="nutrition-label">
+
+                        <span class="nutrition-icon protein">
+                            🥩
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Protein
+                            </strong>
+
+                            <small>
+                                Pertumbuhan & jaringan
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value small">
+
+                        <strong>
+                            <span id="smallProteinValue">
+                                18,027
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="smallProteinProgress"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value large">
+
+                        <strong>
+                            <span id="largeProteinValue">
+                                24,920
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="largeProteinProgress"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================
+                     LEMAK
+                ================== -->
+                <div class="nutrition-row">
+
+                    <div class="nutrition-label">
+
+                        <span class="nutrition-icon fat">
+                            💧
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Lemak
+                            </strong>
+
+                            <small>
+                                Sumber energi
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value small">
+
+                        <strong>
+                            <span id="smallFatValue">
+                                16,620
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="smallFatProgress"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value large">
+
+                        <strong>
+                            <span id="largeFatValue">
+                                15,874
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="largeFatProgress"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================
+                     KARBOHIDRAT
+                ================== -->
+                <div class="nutrition-row">
+
+                    <div class="nutrition-label">
+
+                        <span class="nutrition-icon carbohydrate">
+                            🍚
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Karbohidrat
+                            </strong>
+
+                            <small>
+                                Sumber energi utama
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value small">
+
+                        <strong>
+                            <span id="smallCarbohydrateValue">
+                                53,055
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="smallCarbohydrateProgress"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value large">
+
+                        <strong>
+                            <span id="largeCarbohydrateValue">
+                                73,564
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="largeCarbohydrateProgress"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================
+                     SERAT
+                ================== -->
+                <div class="nutrition-row">
+
+                    <div class="nutrition-label">
+
+                        <span class="nutrition-icon fiber">
+                            🥬
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Serat
+                            </strong>
+
+                            <small>
+                                Kesehatan pencernaan
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value small">
+
+                        <strong>
+                            <span id="smallFiberValue">
+                                1,719
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="smallFiberProgress"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="nutrition-value large">
+
+                        <strong>
+                            <span id="largeFiberValue">
+                                3,070
+                            </span>
+                            g
+                        </strong>
+
+                        <div class="progress">
+                            <span id="largeFiberProgress"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INFO
+        ========================== -->
+        <section class="info-card">
+
+            <div class="info-icon">
+                ⓘ
+            </div>
+
+            <p>
+                Nilai gizi merupakan informasi
+                berdasarkan <strong>1 porsi makanan</strong>
+                dan dapat diperbarui sesuai
+                menu yang disajikan setiap hari.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+        <footer
+            class="footer"
+            id="about">
+
+            <div class="footer-logo">
+
+                <img
+                    src="assets/icons/logobgn.png"
+                    alt="Logo BGN">
+
+            </div>
+
+            <p>
+                SPPG Kuningan Cibingbin Sindangjawa
+            </p>
+
+            <small>
+                Informasi gizi harian
+            </small>
+
+        </footer>
+
+    </main>
+
+
+    <!-- =========================
+         BOTTOM NAVIGATION
+    ========================== -->
+    <nav class="bottom-nav">
+
+        <a
+            href="#"
+            class="nav-item active"
+            id="homeNav">
+
+            <span>⌂</span>
+
+            <small>
+                Beranda
+            </small>
+
+        </a>
+
+
+        <a
+            href="#nutrition"
+            class="nav-item"
+            id="nutritionNav">
+
+            <span>▣</span>
+
+            <small>
+                Gizi
+            </small>
+
+        </a>
+
+
+        <a
+            href="#about"
+            class="nav-item"
+            id="aboutNav">
+
+            <span>ⓘ</span>
+
+            <small>
+                Tentang
+            </small>
+
+        </a>
+
+    </nav>
+
+            <!-- =========================
+            ALERT INFORMASI MAKANAN
+        ========================== -->
+        <div class="food-alert-overlay" id="foodAlert">
+
+            <div class="food-alert">
+
+                <button class="alert-close" id="closeAlert">
+                    ×
+                </button>
+
+                <div class="alert-icon">
+                    🍱
+                </div>
+
+                <h2>
+                    Perhatian!
+                </h2>
+
+                <p class="alert-intro">
+                    Demi menjaga keamanan dan kualitas makanan,
+                    harap perhatikan ketentuan berikut:
+                </p>
+
+                <div class="alert-list">
+
+                    <div class="alert-item">
+                        <div class="alert-item-icon">
+                            ⏱️
+                        </div>
+
+                        <div>
+                            <strong>
+                                Segera Dikonsumsi
+                            </strong>
+
+                            <span>
+                                Makanan segera dikonsumsi setelah diterima.
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="alert-item">
+                        <div class="alert-item-icon">
+                            🕐
+                        </div>
+
+                        <div>
+                            <strong>
+                                Maksimal 2 Jam
+                            </strong>
+
+                            <span>
+                                Batas konsumsi maksimal 2 jam setelah makanan diterima.
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="alert-item warning">
+                        <div class="alert-item-icon">
+                            🚫
+                        </div>
+
+                        <div>
+                            <strong>
+                                Jangan Dibawa Pulang
+                            </strong>
+
+                            <span>
+                                Makanan tidak untuk dibawa pulang.
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button
+                    class="alert-button"
+                    id="understandAlert">
+
+                    Saya Mengerti
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <script src="js/script.js"></script>
+
+        <script>
+
+    // =========================
+    // ALERT INFORMASI MAKANAN
+    // =========================
+
+    const foodAlert = document.getElementById("foodAlert");
+    const closeAlert = document.getElementById("closeAlert");
+    const understandAlert = document.getElementById("understandAlert");
+
+
+    // Tampilkan otomatis ketika halaman dibuka
+    window.addEventListener("load", function () {
+
+        setTimeout(function () {
+
+            foodAlert.classList.add("show");
+
+        }, 500);
+
+    });
+
+
+    // Tutup alert
+    function hideFoodAlert() {
+
+        foodAlert.classList.remove("show");
+
+    }
+
+
+    closeAlert.addEventListener(
+        "click",
+        hideFoodAlert
+    );
+
+
+    understandAlert.addEventListener(
+        "click",
+        hideFoodAlert
+    );
+
+
+    // Klik area luar popup untuk menutup
+    foodAlert.addEventListener(
+        "click",
+        function (e) {
+
+            if (e.target === foodAlert) {
+
+                hideFoodAlert();
+
+            }
+
+        }
+    );
+
+</script>
+
+    <!-- =========================
+         JAVASCRIPT
+         HANYA UNTUK ANIMASI LOGO
+    ========================== -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
